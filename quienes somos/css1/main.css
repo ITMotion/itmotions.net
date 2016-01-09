@@ -1,0 +1,42 @@
+
+ul li{
+	list-style: none;
+	display: inline;
+}
+
+ul li a{
+	color: #577299;
+	font-size: 21px;
+	padding: 12px;
+	text-decoration: none;
+	text-align: justify;
+}
+
+#contenido1 h1{
+	color: #577299;
+}
+
+h3{
+	color: #577299;
+}
+
+#contenido1 p{
+	color:gray;
+}
+
+#contenido2 p{
+	color:gray;
+}
+
+#footer li a{
+	font-size: 15px;
+}
+
+#footer p{
+	font-size: 10px;
+}
+#logo img{
+	width: 80%;
+	height:15%;
+	
+}
