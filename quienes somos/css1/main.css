@@ -40,3 +40,20 @@ h3{
 	height:15%;
 	
 }
+
+#vision img{
+	width: 600px;
+	height: 234px;
+}
+
+#vision p{
+color:gray;
+}
+
+#mision p{
+color: gray;
+}
+
+#valores p{
+color: gray;
+}
