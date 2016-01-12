@@ -12,19 +12,18 @@
 		<div class="row">
 			<div class="col-md-12" id="contenido1">
 				<div class="jumbotron">
-					<h1>Empieza a planear tu proyecto</h1>
-					<p>
-						Estas en manos de profecionales, se llevará de la mano todo el desarrollo con un equipo calificado y con los mejores estándares. Usted puede estar seguro que su proyecto tendra las caracteristicas mas altas de calidad de software.
-					</p>
-					<p>Solo hace falta empezar a planear un futuro brillante... </p>	
-					<a href="#ventana" class="btn btn-primary" data-toggle="modal">aqui »</a>
+					<h1>Comienza un proyecto con nosotros</h1>
+					<p>Nuestro equipo de desarrolladores y diseñadores están capacitados en los lenguajes más modernos para ofrecerle lo mejor en el mercado.
+						También contamos con un equipo de análisis para asegurarse de que la aplicación sea la que realmente necesita su empresa.</p>
+					<p>Solo hace falta tener iniciativa para tener un futuro brillante... </p>	
+					<a href="#ventana" class="btn btn-primary" data-toggle="modal">Cotización de Proyectos »</a>
 					<div class="modal fade" id="ventana" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<form class="form-horizontal">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-									<h4 class="modal-title" id="myModalLabel">contacto</h4>
+									<h4 class="modal-title" id="myModalLabel">¡Compártenos tu idea!</h4>
 								</div>
 								<div class="modal-body">
 									<div class="form-group" id="nombre">
@@ -35,14 +34,14 @@
 									</div>
 
 									<div class="form-group" id="proyecto">
-										<label for="proyecto" class="col-lg-2 control-lable">proyecto</label>
+										<label for="proyecto" class="col-lg-2 control-lable">Proyecto</label>
 										<div class="col-lg-10">
 											<input type="text" name="proyecto" id="proyecto" class="form-control" placeholder="Ingrese el nombre de su proyecto" required="required"/>
 										</div>
 									</div>
 
 									<div class="form-group" id="correo">
-										<label for="correo" class="col-lg-2 control-lable">correo</label>
+										<label for="correo" class="col-lg-2 control-lable">Correo</label>
 										<div class="col-lg-10">
 											<input type="email" name="correo" id="correo" class="form-control" placeholder="ejemplo@ejemplo.com" required="required"/>
 										</div>
@@ -60,8 +59,8 @@
 									</div>
 								</div>
 								<div class="modal-footer">
-									<a class="btn btn-default" data-dismiss="modal">cerrar</a>
-									<button class="btn btn-primary" type="submit" >enviar</button>
+									<a class="btn btn-default" data-dismiss="modal">Cerrar</a>
+									<button class="btn btn-primary" type="submit">Enviar</button>
 								</div>
 							</div>
 						</div>
@@ -72,13 +71,8 @@
 
 		<div class="row">
 			<div class="col-md-12" id="contenido2">
-				<h2>Un poco de nosotros</h2>
-					<p>
-						Desarrollo creativo en manos de jovenes con experiencia. Este proyecto "ITMotions" nace del aprendizaje, conocimiento y desarrollo en el area. En un principio el desarrollo era para plataformas web.
-					</p>
-					<p>
-						Hoy, gracias al desempeño y conocimiento exponencialmente estamos en crecimiento. Algunos de nuestros trabajos son:
-					</p>
+				<h2>Un poco de nuestros proyectos</h2>
+					<p>Algunos ejemplos de proyectos que hemos llevado a cabo con clientes con una gran iniciativa para evolucionar en su sector de negocios.</p>
 			</div>
 		</div>
 
@@ -89,10 +83,7 @@
 					<div class="thumbnail">
 						<img src="imagenes/pia.png"/>
 						<div class="caption">
-							<h3>PIA</h3>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+							<h3>Aplicaciones administrativas</h3>
 						</div>
 					</div>
 				</div>
@@ -100,10 +91,7 @@
 					<div class="thumbnail">
 						<img src="imagenes/pizza.png"/>
 						<div class="caption">
-							<h3>restaurante</h3>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+							<h3>Sitios Web Publicitarios</h3>
 						</div>
 					</div>
 				</div>
@@ -111,10 +99,7 @@
 					<div class="thumbnail">
 						<img src="imagenes/publi.jpg" />
 						<div class="caption">
-							<h3>PubliPrint</h3>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+							<h3>Agenda inteligente</h3>
 						</div>
 					</div>
 				</div>
