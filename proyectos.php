@@ -20,7 +20,7 @@
 					<div class="modal fade" id="ventana" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<form class="form-horizontal">
+								<form action="<?=$_SERVER['PHP_SELF']?>" method="post" class="form-horizontal">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 									<h4 class="modal-title" id="myModalLabel">¡Compártenos tu idea!</h4>
@@ -56,8 +56,35 @@
 								</div>
 								<div class="modal-footer">
 									<a class="btn btn-default" data-dismiss="modal">Cerrar</a>
-									<button class="btn btn-primary" type="submit">Enviar</button>
+									<input type="submit" value="Enviar" id="enviar" class="btn btn-primary"/>
 								</div>
+							</form>
+
+									<?php
+								//para enviar al correo electronico
+								if (!isset($_POST['correo'])) {
+								?>
+
+
+
+								<?php
+								}else{
+								  $mensaje="Mensaje del formulario de contacto de cliente";
+								  $mensaje.= "\nNombre: ". $_POST['nombre'];
+								  $mensaje.= "\nproyecto: ".$_POST['proyecto'];
+								  $mensaje.= "\ncorreo ". $_POST['correo'];
+								  $mensaje.= "\ndescripcion ". $_POST['descripcion'];
+								  $destino= "ventas@itmotions.net";
+								  $remitente = $_POST['correo'];
+								  $asunto = "Mensaje enviado por: ".$_POST['nombre'];
+								  mail($destino,$asunto,$mensaje,"FROM: $remitente");
+								?>
+								 echo"<script>alert('gracias tus datos se han enviado.');</script>";
+								<?php
+								}
+								?>
+
+
 							</div>
 						</div>
 					</div>			

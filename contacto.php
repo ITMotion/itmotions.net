@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-md-6" id="formularioContacto">
 				<div class="form-group">
-					<form id="ContactForm">
+					<form action="<?=$_SERVER['PHP_SELF']?>" method="post" id="ContactForm">
 						<div class="form-group">
 							<label for="nombre">Nombre</label>
 							<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" required="required"/>
@@ -36,8 +36,35 @@
 							<textarea name="mensaje" id="mensaje" class="form-control" required="required" placeholder="¡Nos interesan tus opiniones e ideas!"></textarea>
 						</div>
 						<br>
-						<button type="button" class="btn btn-primary">Enviar</button>
+						<input type="submit" value="Enviar" id="enviar" class="btn btn-primary"/>
 					</form>
+
+					<?php
+						//para enviar al correo electronico
+						if (!isset($_POST['correo'])) {
+						?>
+
+
+
+						<?php
+						}else{
+						  $mensaje="Mensaje del formulario de contacto de cliente";
+						  $mensaje.= "\nNombre: ". $_POST['nombre'];
+						  $mensaje.= "\napellidos: ".$_POST['apellidos'];
+						  $mensaje.= "\ncorreo: ". $_POST['correo'];
+						  $mensaje.= "\nmensaje: ". $_POST['mensaje'];
+						  $destino= "ventas@itmotions.net";
+						  $remitente = $_POST['correo'];
+						  $asunto = "Mensaje enviado por: ".$_POST['nombre'];
+						  mail($destino,$asunto,$mensaje,"FROM: $remitente");
+						?>
+						 echo"<script>alert('gracias tus datos se han enviado.');</script>";
+						<?php
+						}
+						?>
+
+
+
 				</div>	
 			</div>
 		</div>
