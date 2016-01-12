@@ -18,7 +18,8 @@ ul li a{
 }
 
 #logoContacto img{
-	width: 500px;
+	margin-left: 5%;
+	width: 90%;
 	height: 320px;
 }
 
@@ -49,4 +50,9 @@ ul li a{
 .direccion{
 	font-weight: bold;
 	color: gray;
+}
+
+#imagenicon img {
+	width: 100%;
+	height: 46.5%;
 }

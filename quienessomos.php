@@ -13,10 +13,10 @@
 			<div class="col-md-12" id="contenido1">
 				<div class="jumbotron">
 					<h1>Quiénes Somos</h1>
-					<p>Una empresa jovén y moderna. Débido al constante movimiento del mundo tecnológico,
-						nuestro equipo se mantiene actualizado, ofreciendo lo mejor en el mercado.</p>
-					<p>La meta principal de IT Motions es ofrecer al cliente soluciones modernas, efectivas y estables para ayudar al empresario moderno. 
-						Ofreciendo los entornos principales de desarrollo, entre los que incluye:</p>
+					<p>Una empresa joven y moderna. Debido al constante movimiento del mundo tecnológico,
+						nuestro equipo se mantiene actualizado, ofreciendo las mejores soluciones en el mercado.</p>
+					<p>La meta principal de IT Motions es ofrecer al cliente soluciones modernas, efectivas y estables
+						 para ayudar al empresario moderno, brindando los entornos principales de desarrollo, entre los que incluye:</p>
 				</div>
 			</div>
 		</div>
@@ -39,9 +39,7 @@
 						<img src="imagenes/movil.jpg"/>
 						<div class="caption">
 							<h3>Aplicaciones Móviles</h3>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+							<p>Una de las ventajas más evidentes de su uso es la facilidad y rápidez con la que se accede a la información,</p>
 						</div>
 					</div>
 				</div>
@@ -51,8 +49,8 @@
 						<div class="caption">
 							<h3>Aplicaciones de Escritorio</h3>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p>
+'								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							'							</p>
 						</div>
 					</div>
 				</div>

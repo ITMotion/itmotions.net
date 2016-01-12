@@ -27,8 +27,20 @@
 						<br>
 						<button type="button" class="btn btn-primary">enviar</button>
 					</form>
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="jumbotron" id="iconos">
+					<h2>Contacto</h2>
+					<div class="num"> <img src="imagenes/telefono.png"/> (998)2574858/8842345</div>
+					<div class="email"> <img src="imagenes/correo.png"/> contacto@itmotions.com</div>
+					<div class="direccion"> <img src="imagenes/direccion.png"/> paseo de la reforma #45 CP77543</div>
 				</div>
-
+			</div>
+			<div class="col-md-6" id="imagenicon">
+				<img src="imagenes/negocios.jpg"/>
 			</div>
 		</div>
 		<?php include("footer.html") ?>

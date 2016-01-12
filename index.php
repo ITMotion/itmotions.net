@@ -11,7 +11,7 @@
 		<?php include ("menu.html") ?>
 		<div class="row">
 		<div class="col-md-6" id="media">
-			<img src="imagenes/negocios.jpg" />
+			<img src="imagenes/logosinletras.png" />
 		</div>
 		<div class="col-md-6" id="contenido1">
 			<div class="jumbotron">
@@ -28,7 +28,7 @@
 					<h2>Inicia un proyecto con nosotros</h2>
 					<p>Contamos con una amplia experiencia en desarrollo de proyectos con sistemas grandes y pequeños. Nuestros desarrolladores están 
 						capacitados en tecnologías de punta. Ofrecemos soluciones avanzadas y modernas para cubrir desde el menor hasta el mayor de los proyectos.</p>
-				<p><a class="btn btn-primary btn-large" href="quienes somos/quienes somos.php">Contáctanos »</a></p>
+				<p><a class="btn btn-primary btn-large" href="proyectos.php">Detalles »</a></p>
 			</div>
 		<?php include("footer.html") ?>
 </div>
