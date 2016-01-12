@@ -15,17 +15,28 @@
 			</div>
 			<div class="col-md-6" id="formularioContacto">
 				<div class="form-group">
-					<form>
-						<label>Nombre</label>
-						<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" required="required"/>
-						<label>Apellidos</label>
-						<input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Ingrese sus apellidos" required="required"/>
-						<label>Correo</label>
-						<input type="text" name="correo" id="correo" class="form-control" placeholder="Ingrese su correo" required="required"/>
-						<label>Mensaje</label>
-						<textarea name="mensaje" id="mensaje" class="form-control" required="required" placeholder="mensaje"></textarea>
+					<form id="ContactForm">
+						<div class="form-group">
+							<label for="nombre">Nombre</label>
+							<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" required="required"/>
+						</div>
+						
+						<div class="form-group">
+							<label for="apellidos">Apellidos</label>
+							<input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Ingrese sus apellidos" required="required"/>
+						</div>
+						
+						<div class="form-group">
+							<label for="correo">Correo</label>
+							<input type="text" name="correo" id="correo" class="form-control" placeholder="Ingrese su correo" required="required"/>
+						</div>
+						
+						<div class="form-group">
+							<label for="mensaje">Mensaje</label>
+							<textarea name="mensaje" id="mensaje" class="form-control" required="required" placeholder="¡Nos interesan tus opiniones e ideas!"></textarea>
+						</div>
 						<br>
-						<button type="button" class="btn btn-primary">enviar</button>
+						<button type="button" class="btn btn-primary">Enviar</button>
 					</form>
 				</div>	
 			</div>
@@ -34,9 +45,9 @@
 			<div class="col-md-6">
 				<div class="jumbotron" id="iconos">
 					<h2>Contacto</h2>
-					<div class="num"> <img src="imagenes/telefono.png"/> (998)2574858/8842345</div>
-					<div class="email"> <img src="imagenes/correo.png"/> contacto@itmotions.com</div>
-					<div class="direccion"> <img src="imagenes/direccion.png"/> paseo de la reforma #45 CP77543</div>
+					<div class="num"> <img src="imagenes/telefono.png"/>(998)2574858 / 8842345</div>
+					<div class="email"> <img src="imagenes/correo.png"/>ventas@itmotions.com</div>
+					<div class="direccion"> <img src="imagenes/direccion.png"/>Paseo de la reforma #45 CP77543</div>
 				</div>
 			</div>
 			<div class="col-md-6" id="imagenicon">
@@ -48,5 +59,8 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/scripts.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/additional-methods.js"></script>
+<script src="js/validator.js"></script>
 </body>
 </html>

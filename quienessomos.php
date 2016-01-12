@@ -27,7 +27,7 @@
 					<div class="thumbnail">
 						<img src="imagenes/web.jpg"/>
 						<div class="caption">
-							<h3>Aplicaciones web</h3>
+							<h3>Aplicaciones Web</h3>
 							<p>Hoy en día es muy popular, la mayoría de los usuarios se benefician del enorme potencial y el 
 								sin número de beneficios al implementarlas. Los principales beneficios: no requiere instalaciones, ofrece 
 								una mejor experiencia usuario, disponibilidad desde cualquier dispositivo con acceso a internet.</p>
@@ -39,7 +39,9 @@
 						<img src="imagenes/movil.jpg"/>
 						<div class="caption">
 							<h3>Aplicaciones Móviles</h3>
-							<p>Una de las ventajas más evidentes de su uso es la facilidad y rápidez con la que se accede a la información,</p>
+							<p>Una de las ventajas más evidentes de su uso es la facilidad y rápidez con la que se accede a la información, 
+								almacenan datos personales de forma segura de tal manera que se ahorra tiempo evitando el rellenado de formularios. 
+								Además, le agrega a la empresa presencia y formalidad</p>
 						</div>
 					</div>
 				</div>
@@ -48,9 +50,9 @@
 						<img src="imagenes/desktop.jpg" />
 						<div class="caption">
 							<h3>Aplicaciones de Escritorio</h3>
-							<p>
-'								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							'							</p>
+							<p>Ya que la mayoría de los procesos se ejecutan en el cliente, se obtiene mayor rendimiento y velocidad de procesamiento. 
+								Por tanto, se ofrecen mayores capacidades para herramientas más complejas o funcionales. 
+								Pueden ofrecer mayor seguridad y estabilidad en comparación a otros entornos.</p>
 						</div>
 					</div>
 				</div>
