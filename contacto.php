@@ -5,6 +5,11 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/contacto.css"/>
 	<meta name="viewport" content="width= device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<?php 
+		if(isset($_GET['var'])){
+			echo"<script>alert('¡Gracias! Tus datos se han enviado. En breve uno de nuestros ejecutivos se pondrá en contacto contigo.');</script>";
+		}
+	?>
 </head>
 <body>
 	<div class="container">
@@ -15,7 +20,7 @@
 			</div>
 			<div class="col-md-6" id="formularioContacto">
 				<div class="form-group">
-					<form id="ContactForm">
+					<form id="ContactForm" action="sendContactMail.php" method="POST">
 						<div class="form-group">
 							<label for="nombre">Nombre</label>
 							<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre" required="required"/>
@@ -36,7 +41,7 @@
 							<textarea name="mensaje" id="mensaje" class="form-control" required="required" placeholder="¡Nos interesan tus opiniones e ideas!"></textarea>
 						</div>
 						<br>
-						<button type="button" class="btn btn-primary">Enviar</button>
+						<input type="submit" value="Enviar" id="enviar" class="btn btn-primary"/>
 					</form>
 				</div>	
 			</div>
