@@ -48,13 +48,9 @@
 									</div>
 
 									<div class="form-group" id="opciones">
-										<label for="desarrollo" class="col-lg-2 control-lable">desarrollo</label>
+										<label for="descripcion" class="col-lg-2 control-lable">Descripción</label>
 										<div class="col-lg-10">
-											<input type="checkbox" name="sitio web" value="sitio web"> sitio web<br>
-											<input type="checkbox" name="aplicacion web" value="aplicacion web"> aplicacion web<br>
-											<input type="checkbox" name="aplicacion movil" value="aplicacion movil"> aplicacion movil<br>
-											<input type="checkbox" name="aplicacion escritorio" value="aplicacion escritorio"> aplicacion de escritorio<br>
-											<input type="checkbox" name="aplicacion ria" value="aplicacion ria"> aplicacion RIA<br>
+											<textarea type="text" name="descripcion" id="descripcion" class="form-control" placeholder="Breve descripción del proyecto" required="required"></textarea>
 										</div>
 									</div>
 								</div>
