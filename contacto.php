@@ -61,6 +61,7 @@
 <script src="js/scripts.js"></script>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/additional-methods.js"></script>
+<script src="js/es.messages.js"></script>
 <script src="js/validator.js"></script>
 </body>
 </html>

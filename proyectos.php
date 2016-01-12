@@ -20,7 +20,7 @@
 					<div class="modal fade" id="ventana" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<form class="form-horizontal">
+								<form class="form-horizontal" id="projects-form">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 									<h4 class="modal-title" id="myModalLabel">¡Compártenos tu idea!</h4>
@@ -106,5 +106,9 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/scripts.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/additional-methods.js"></script>
+<script src="js/es.messages.js"></script>
+<script src="js/validaproyectos.js"></script>
 </body>
 </html>
