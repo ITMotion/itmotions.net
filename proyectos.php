@@ -5,6 +5,11 @@
 	<link type="text/css" rel="stylesheet" href="css/proyectos.css"/>
 	<link href="css/style.css" rel="stylesheet">
 	<meta name="viewport" content="width= device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<?php 
+		if(isset($_GET["var"])){
+			echo"<script>alert('¡Gracias! Tus datos se han enviado. En breve uno de nuestros ejecutivos se pondrá en contacto contigo.');</script>";
+		}
+	?>
 </head>
 <body>
 	<div class="container">
@@ -20,43 +25,44 @@
 					<div class="modal fade" id="ventana" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<form class="form-horizontal" id="projects-form">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 									<h4 class="modal-title" id="myModalLabel">¡Compártenos tu idea!</h4>
 								</div>
 								<div class="modal-body">
-									<div class="form-group" id="nombre">
-										<label for="nombre" class="col-lg-2 control-lable">Nombre</label>
-										<div class="col-lg-10">
-											<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre completo" required="required"/>
+									<form action="sendMail.php" method="POST"class="form-horizontal" id="projects-form">
+										<div class="form-group" id="nombre">
+											<label for="nombre" class="col-lg-2 control-lable">Nombre</label>
+											<div class="col-lg-10">
+												<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre completo" required="required"/>
+											</div>
 										</div>
-									</div>
 
-									<div class="form-group" id="proyecto">
-										<label for="proyecto" class="col-lg-2 control-lable">Proyecto</label>
-										<div class="col-lg-10">
-											<input type="text" name="proyecto" id="proyecto" class="form-control" placeholder="Ingrese el nombre de su proyecto" required="required"/>
+										<div class="form-group" id="proyecto">
+											<label for="proyecto" class="col-lg-2 control-lable">Proyecto</label>
+											<div class="col-lg-10">
+												<input type="text" name="proyecto" id="proyecto" class="form-control" placeholder="Ingrese el nombre de su proyecto" required="required"/>
+											</div>
 										</div>
-									</div>
 
-									<div class="form-group" id="correo">
-										<label for="correo" class="col-lg-2 control-lable">Correo</label>
-										<div class="col-lg-10">
-											<input type="email" name="correo" id="correo" class="form-control" placeholder="ejemplo@ejemplo.com" required="required"/>
+										<div class="form-group" id="correo">
+											<label for="correo" class="col-lg-2 control-lable">Correo</label>
+											<div class="col-lg-10">
+												<input type="email" name="correo" id="correo" class="form-control" placeholder="ejemplo@ejemplo.com" required="required"/>
+											</div>
 										</div>
-									</div>
 
-									<div class="form-group" id="opciones">
-										<label for="descripcion" class="col-lg-2 control-lable">Descripción</label>
-										<div class="col-lg-10">
-											<textarea type="text" name="descripcion" id="descripcion" class="form-control" placeholder="Breve descripción del proyecto" required="required"></textarea>
+										<div class="form-group" id="opciones">
+											<label for="descripcion" class="col-lg-2 control-lable">Descripción</label>
+											<div class="col-lg-10">
+												<textarea type="text" name="descripcion" id="descripcion" class="form-control" placeholder="Breve descripción del proyecto" required="required"></textarea>
+											</div>
 										</div>
-									</div>
 								</div>
 								<div class="modal-footer">
 									<a class="btn btn-default" data-dismiss="modal">Cerrar</a>
-									<button class="btn btn-primary" type="submit">Enviar</button>
+									<button class="btn btn-primary" type="submit" value="Enviar" id="enviar">Enviar</button>
+									</form>
 								</div>
 							</div>
 						</div>
